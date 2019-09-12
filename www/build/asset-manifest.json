@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.982558c9.chunk.css",
+    "main.js": "/static/js/main.d590a449.chunk.js",
+    "main.js.map": "/static/js/main.d590a449.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.ce8b1194.js",
+    "runtime~main.js.map": "/static/js/runtime~main.ce8b1194.js.map",
+    "static/js/2.6d6ae0a6.chunk.js": "/static/js/2.6d6ae0a6.chunk.js",
+    "static/js/2.6d6ae0a6.chunk.js.map": "/static/js/2.6d6ae0a6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.642f9f74ae092d90d03ff481c3432ac5.js": "/precache-manifest.642f9f74ae092d90d03ff481c3432ac5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.982558c9.chunk.css.map": "/static/css/main.982558c9.chunk.css.map",
+    "static/media/4x4-01.jpg": "/static/media/4x4-01.e45ba87b.jpg",
+    "static/media/4x4-02.jpg": "/static/media/4x4-02.dcb4a14f.jpg",
+    "static/media/4x4-03.jpg": "/static/media/4x4-03.dd21f370.jpg",
+    "static/media/4x4-04.jpg": "/static/media/4x4-04.866f9533.jpg",
+    "static/media/banner01.jpg": "/static/media/banner01.4641a6cb.jpg",
+    "static/media/banner02.jpg": "/static/media/banner02.0aa6bf2e.jpg",
+    "static/media/banner03.jpg": "/static/media/banner03.81b11717.jpg",
+    "static/media/banner04.jpg": "/static/media/banner04.fa6a0690.jpg",
+    "static/media/eleonora-comucci.jpg": "/static/media/eleonora-comucci.25085f7d.jpg",
+    "static/media/logo-vermelho.png": "/static/media/logo-vermelho.64c0ccd0.png",
+    "static/media/paulo-americo.jpg": "/static/media/paulo-americo.f6f0fef6.jpg",
+    "static/media/rita-vetucci.jpg": "/static/media/rita-vetucci.aa21306a.jpg"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "workshop.morgentalmtc.com.br",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-sticky-box": "^0.8.0",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "scripts": {
+    "start-dev": "react-scripts start",
+    "start-local": "dotenv -e .env.local react-scripts start",
+    "start-prod": "dotenv -e .env.production react-scripts start",
+    "build": "react-scripts build",
+    "build-dev": "dotenv -e .env.development react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync ./build s3://workshop.morgentalmtc.com.br/",
+    "deploy-dev": "aws s3 sync ./build s3://dev.workshop.morgentalmmtc.com.br/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "dotenv-cli": "^2.0.1"
+  }
+}
