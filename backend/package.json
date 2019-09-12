@@ -1,0 +1,50 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@luismramirezr/pagseguro": "/Users/milo/Documents/dev/pagSeguro/",
+    "aws-sdk": "^2.524.0",
+    "aws-serverless-express": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.12.20",
+    "mailchimp-api-v3": "^1.13.1",
+    "md5": "^2.2.1",
+    "yamljs": "^0.3.0"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "local": "NODE_ENV=local nodemon src/index.js",
+    "prod": "NODE_ENV=prod nodemon src/index.js",
+    "zip": "npm-pack-zip",
+    "deploy": "aws lambda update-function-code --function-name arn:aws:lambda:us-east-1:042822862645:function:morgentalMTC_ws --zip-file fileb://backend.zip"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "nodemon": "^1.19.1",
+    "npm-pack-zip": "^1.2.7",
+    "prettier": "^1.18.2",
+    "serverless": "^1.51.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-plugin-write-env-vars": "^1.0.2"
+  },
+  "bundleDependencies": [
+    "aws-serverless-express",
+    "axios",
+    "dotenv",
+    "express",
+    "mailchimp-api-v3",
+    "md5",
+    "fast-xml-parser"
+  ]
+}
